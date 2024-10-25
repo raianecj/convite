@@ -177,7 +177,7 @@ footer {
     }
 
     .hero__title {
-        font-size: 1.5em;
+        font-size: 4em;
     }
 
     .hero__text {
@@ -185,22 +185,22 @@ footer {
     }
 
     .section__foreground h1 {
-        font-size: 1.5em;
+        font-size: 3em;
     }
 
     .section__foreground p {
-        font-size: 1em;
+        font-size: 1.5em;
     }
 
     .btn-confirmar-presenca {
         font-size: 0.9em;
-        padding: 8px 15px;
+        padding: 12px 25px;
     }
 }
 
 @media (max-width: 480px) {
     .hero__title {
-        font-size: 1.2em;
+        font-size: 2em;
     }
 
     .hero__text {
@@ -208,7 +208,7 @@ footer {
     }
 
     .section__foreground h1 {
-        font-size: 1.3em;
+        font-size: 2em;
     }
 
     .section__foreground p {
@@ -216,8 +216,8 @@ footer {
     }
 
     .btn-confirmar-presenca {
-        font-size: 0.8em;
-        padding: 6px 10px;
+        font-size: 0.9em;
+        padding: 12px 25px;
     }
 
     iframe {
