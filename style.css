@@ -23,7 +23,7 @@ h1, h2, h3 {
 
 p, span, li, a {
     font-family: 'LumosLatinoFont', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 :root {
@@ -72,6 +72,7 @@ a {
 .hero__title {
     font-size: 7.5rem;
     font-weight: 300;
+    text-shadow: 0.1em 0.1em 0.2em black
     
 }
 
@@ -79,6 +80,7 @@ a {
     margin-top: 2rem;
     font-size: 2rem;
     letter-spacing: 0.5rem;
+    text-shadow: 0.1em 0.1em 0.2em black
 }
 
 .section {
@@ -132,11 +134,15 @@ a {
 .section__foreground h1 {
     font-size: 3rem;
     margin-bottom: 1.5rem;
+    color: #ffffff;
+    text-shadow: 0.1em 0.1em 0.2em black
 }
 
 .section__foreground p {
     font-size: 1.5rem;
     margin-bottom: 1rem;
+    color: #ffffff;
+    text-shadow: 0.1em 0.1em 0.2em black
 }
 
 .btn-confirmar-presenca {
@@ -149,10 +155,13 @@ a {
     text-decoration: none;
     margin-top: 2rem;
     transition: background-color 0.3s ease;
+    box-shadow: 0 8px 6px -6px black;
+    
 }
 
 .btn-confirmar-presenca:hover {
     background-color: rgb(182, 104, 9);
+    
 }
 
 iframe {
